@@ -4,22 +4,37 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const fs = require('fs');
 // TODO: Create an array of questions for user input
 const questions = [
-  
   {
     // Title of Project
-    type: 'input',
-    name: 'title',
-    message: 'Title of Project:',
-    validate: titleInput => {
+    type: "input",
+    name: "title",
+    message: "Title of Project:",
+    validate: (titleInput) => {
       if (titleInput) {
         return true;
       } else {
-        console.log('Please provide a project name.');
+        console.log("Please provide a project name.");
         return false;
       }
     }
   },
 
+  {
+    // Description of Project
+    type: "input",
+    name: "description",
+    message: "Provide a description of your project.",
+    validate: (descriptionInput) => {
+      if (descriptionInput) {
+        return true;
+      } else {
+        console.log("Please provide a description of your project.");
+        return false;
+      }
+    }
+  },
+
+  
 
 
 
