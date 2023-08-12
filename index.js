@@ -8,7 +8,7 @@ const questions = [
     // Title of Project
     type: "input",
     name: "title",
-    message: "Title of Project:",
+    message: "Project's Title:",
     validate: (titleInput) => {
       if (titleInput) {
         return true;
@@ -16,14 +16,14 @@ const questions = [
         console.log("Please provide a project name.");
         return false;
       }
-    }
+    },
   },
 
   {
     // Description of Project
     type: "input",
     name: "description",
-    message: "Provide a description of your project.",
+    message: "Project's Description:",
     validate: (descriptionInput) => {
       if (descriptionInput) {
         return true;
@@ -31,12 +31,34 @@ const questions = [
         console.log("Please provide a description of your project.");
         return false;
       }
-    }
+    },
   },
 
-  
+  {
+    // Installation of Project
+    type: "input",
+    name: "installation",
+    message: "How do you Install and Run the Project?",
+  },
 
+  {
+    // Usage for the project
+    type: "input",
+    name: "usage",
+    message: "How do you use the Project?",
+  },
 
+  {
+    // Licenses for the project
+    type: "list",
+    name: "license",
+    message: "Add a license",
+    choices: ["Apache License 2.0", "MIT License", "Mozilla License 2.0"]
+  },
+
+  {
+    
+  }
 
 ];
 
