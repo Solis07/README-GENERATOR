@@ -90,7 +90,7 @@ const questions = [
   {
     // Contributing section
     type: "input",
-    name: "contribution",
+    name: "contributing",
     message: "Enter contribution covenant and contribution guide.",
   },
 
