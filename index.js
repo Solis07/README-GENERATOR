@@ -117,7 +117,7 @@ function writeToFile(fileName, data) {}
     err ? console.error(err) : console.log('README created!'));
 
 // TODO: Create a function to initialize app
-function init() {}
+//function init() {}
 
 // Function call to initialize app
 questions();
