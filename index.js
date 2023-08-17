@@ -2,6 +2,8 @@
 const inquirer = require('inquirer');
 const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require('fs');
+
+// Questions Array
 const questions = [
   {
     // Title section
@@ -99,7 +101,7 @@ const questions = [
     message: "Include tests:",
   },
 ];
-// TODO: Create an array of questions for user input
+
 const init = () => {
   return inquirer.prompt(questions)
     .then(readmeData => {
