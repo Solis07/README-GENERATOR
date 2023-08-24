@@ -10,7 +10,7 @@ The following challenge required the developer to create a README Generator thro
 
 ## Screenshot
 
-![README GENERATOR](./assets/img/unfinished-weather-dashboard-screenshot.jpeg)
+![README GENERATOR](./assets/img/Readme%20screenshot.jpg)
 
 ## Notes
 

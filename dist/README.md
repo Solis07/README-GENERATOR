@@ -1,8 +1,8 @@
 
-  # My Preview Video
+  # Readme Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  The following Readme is for my video preview for my challenge 9 assignment.
+  A preview of my readme generator using inquirer through the command line.
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -12,9 +12,9 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  Through the terminal on vs code using node.
+  Through the command line with inquirer.
   ## Usage
-  Through the terminal on vs code using node.
+  Through the command line with inquirer.
   ## License
   [MIT License](http://choosealicense.com/licenses/mit/)
   ## Contributing
