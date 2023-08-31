@@ -1,8 +1,8 @@
 
-  # Readme Generator
+  # README Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  A preview of my readme generator using inquirer through the command line.
+  A preview of my README generator working.
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -12,9 +12,9 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  Through the command line with inquirer.
+  Through the terminal with the help of inquirer.
   ## Usage
-  Through the command line with inquirer.
+  Through the terminal with the help of inquirer.
   ## License
   [MIT License](http://choosealicense.com/licenses/mit/)
   ## Contributing

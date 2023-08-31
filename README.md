@@ -8,6 +8,9 @@ The following challenge required the developer to create a README Generator thro
 
 [README GENERATOR](https://solis07.github.io/README-GENERATOR/)
 
+## Video Link
+[Video](https://youtu.be/TDmUNBig9UELinks)
+
 ## Screenshot
 
 ![README GENERATOR](./assets/img/Readme%20screenshot.jpg)
